@@ -1,0 +1,24 @@
+.badge {
+   margin: 0.5em;
+   padding: 0.3em 0.7em;
+   border-radius: 1000px;
+   cursor: pointer;
+   user-select: none;
+}
+
+.badge:hover {
+   background-color: var(--primary-color-90);
+   color: var(--background-neutral-1);
+}
+
+.badge:active {
+   background-color: var(--primary-color-70);
+}
+
+.badge-filled {
+   background-color: var(--primary-color-100);
+}
+
+.badge-outline {
+   border: 1px solid var(--primary-color-100);
+}

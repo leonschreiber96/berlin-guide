@@ -1,0 +1,120 @@
+:root {
+   /* Brand colors */
+   --primary-color-10: #020400;
+   --primary-color-20: #121c05;
+   --primary-color-30: #182f0a;
+   --primary-color-40: #1d3d0c;
+   --primary-color-50: #234a0e;
+   --primary-color-60: #2c5813;
+   --primary-color-70: #38661f;
+   --primary-color-80: #47742f;
+   --primary-color-90: #578140;
+   --primary-color-100: #688e52;
+   --primary-color-110: #799c64;
+   --primary-color-120: #8baa78;
+   --primary-color-130: #9db78c;
+   --primary-color-140: #afc5a1;
+   --primary-color-150: #c2d3b7;
+   --primary-color-160: #d5e1cd;
+
+   --primary-color-dark-10: #030401;
+   --primary-color-dark-20: #151b0f;
+   --primary-color-dark-30: #1f2d17;
+   --primary-color-dark-40: #273a1b;
+   --primary-color-dark-50: #2e481f;
+   --primary-color-dark-60: #355723;
+   --primary-color-dark-70: #40642b;
+   --primary-color-dark-80: #51713d;
+   --primary-color-dark-90: #617e4f;
+   --primary-color-dark-100: #728b62;
+   --primary-color-dark-110: #829974;
+   --primary-color-dark-120: #93a786;
+   --primary-color-dark-130: #a4b499;
+   --primary-color-dark-140: #b5c3ac;
+   --primary-color-dark-150: #c7d1c0;
+   --primary-color-dark-160: #d8dfd3;
+
+   /* Background colors */
+   --background-neutral-1: #fff;
+   --background-neutral-1-dark: #292929;
+   --background-neutral-2: #fafafa;
+   --background-neutral-2-dark: #1f1f1f;
+   --background-neutral-3: #f5f5f5;
+   --background-neutral-3-dark: #141414;
+   --background-neutral-4: #f0f0f0;
+   --background-neutral-4-dark: #0a0a0a;
+   --background-neutral-5: #ebebeb;
+   --background-neutral-5-dark: #000;
+   --background-neutral-6: #e6e6e6;
+   --background-neutral-6-dark: #333;
+
+   /* Text colors */
+   --textcolor-neutral-1: #242424;
+   --textcolor-neutral-1-dark: #fff;
+   --textcolor-neutral-2: #424242;
+   --textcolor-neutral-2-dark: #d6d6d6;
+   --textcolor-neutral-3: #616161;
+   --textcolor-neutral-3-dark: #adadad;
+   --textcolor-neutral-4: #707070;
+   --textcolor-neutral-4-dark: #999;
+
+   /* Elevation Shadows */
+   --shadow-elevation-2: inset 0 0 2px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-2-dark: inset 0 0 2px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.28);
+   --shadow-elevation-4: inset 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-4-dark: inset 0 0 2px rgba(0, 0, 0, 0.24), 0 2px 4px rgba(0, 0, 0, 0.28);
+   --shadow-elevation-8: inset 0 0 2px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-8-dark: inset 0 0 2px rgba(0, 0, 0, 0.24), 0 4px 8px rgba(0, 0, 0, 0.28);
+   --shadow-elevation-16: inset 0 0 2px rgba(0, 0, 0, 0.12), 0 8px 16px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-16-dark: inset 0 0 2px rgba(0, 0, 0, 0.24), 0 8px 16px rgba(0, 0, 0, 0.28);
+   --shadow-elevation-28: inset 0 0 8px rgba(0, 0, 0, 0.12), 0 14px 28px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-28-dark: inset 0 0 8px rgba(0, 0, 0, 0.24), 0 14px 28px rgba(0, 0, 0, 0.28);
+   --shadow-elevation-64: inset 0 0 8px rgba(0, 0, 0, 0.12), 0 32px 64px rgba(0, 0, 0, 0.14);
+   --shadow-elevation-64-dark: inset 0 0 8px rgba(0, 0, 0, 0.24), 0 32px 64px rgba(0, 0, 0, 0.28);
+}
+
+[data-theme="dark"] {
+   /* Brand colors */
+   --primary-color-10: var(--primary-color-dark-10);
+   --primary-color-20: var(--primary-color-dark-20);
+   --primary-color-30: var(--primary-color-dark-30);
+   --primary-color-40: var(--primary-color-dark-40);
+   --primary-color-50: var(--primary-color-dark-50);
+   --primary-color-60: var(--primary-color-dark-60);
+   --primary-color-70: var(--primary-color-dark-70);
+   --primary-color-80: var(--primary-color-dark-80);
+   --primary-color-90: var(--primary-color-dark-90);
+   --primary-color-100: var(--primary-color-dark-100);
+   --primary-color-110: var(--primary-color-dark-110);
+   --primary-color-120: var(--primary-color-dark-120);
+   --primary-color-130: var(--primary-color-dark-130);
+   --primary-color-140: var(--primary-color-dark-140);
+   --primary-color-150: var(--primary-color-dark-150);
+   --primary-color-160: var(--primary-color-dark-160);
+
+   /* Background colors */
+   --background-neutral-1: var(--background-neutral-1-dark);
+   --background-neutral-2: var(--background-neutral-2-dark);
+   --background-neutral-3: var(--background-neutral-3-dark);
+   --background-neutral-4: var(--background-neutral-4-dark);
+   --background-neutral-5: var(--background-neutral-5-dark);
+   --background-neutral-6: var(--background-neutral-6-dark);
+
+   /* Text colors */
+   --textcolor-neutral-1: var(--textcolor-neutral-1-dark);
+   --textcolor-neutral-2: var(--textcolor-neutral-2-dark);
+   --textcolor-neutral-3: var(--textcolor-neutral-3-dark);
+   --textcolor-neutral-4: var(--textcolor-neutral-4-dark);
+
+   /* Elevation Shadows */
+   --shadow-elevation-2: var(--shadow-elevation-2-dark);
+   --shadow-elevation-4: var(--shadow-elevation-4-dark);
+   --shadow-elevation-8: var(--shadow-elevation-8-dark);
+   --shadow-elevation-16: var(--shadow-elevation-16-dark);
+   --shadow-elevation-28: var(--shadow-elevation-28-dark);
+   --shadow-elevation-64: var(--shadow-elevation-64-dark);
+}
+
+* {
+   transition: background-color 0.3s ease, border-color 0.3s ease;
+}

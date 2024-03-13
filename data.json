@@ -1,0 +1,53 @@
+[
+   {
+      "name": "Nord-West Oase",
+      "location": "Wiclefstraße 17, 10551 Berlin",
+      "note": "Meine Moabiter Stammlocation mit richtigem Berliner Kneipenfeeling. Hier gibt es gutes Essen und die Leute sind total freundlich und entspannt. Die Speisekarte wechselt wöchentlich, es gibt aber ein paar Klassiker, die immer da sind (Käsespätzle, Buletten, ...). Ich wurde hier vom Essen noch nie enttäuscht 😊. Es ist keine *billige* Kneipe, aber wenn man die Hausmarke trinkt auch nicht teuer (~3,50 €). Am Wochenende aufpassen, da läuft hier Fußball und ist manchmal echt ziemlich voll. Wenn man es aber selbst schauen möchte, ist es eine top Kneipe dafür! Was ich außerdem toll finde: man kann mit einer größeren Gruppe am Tresen sitzen und sich trotzdem unterhalten, weil seitlich vom Tresen Tische abgehen. Außerdem kann man Darts und Tischkicker spielen 🎯",
+      "category": "Bar",
+      "tags": [
+         "Bier",
+         "Essen",
+         "Fußball",
+         "Tischkicker",
+         "Darts",
+         "Gemütlich",
+         "Kartenzahlung"
+      ],
+      "last_visited": "Regularly",
+      "image": "nwo.jpg"
+   },
+   {
+      "name": "Fernsehturm",
+      "location": "Panoramastraße 1A, 10178 Berlin",
+      "note": "Lange habe ich es vor mir hergeschoben hier vorbeizuschauen, weil es mir zu tourimäßig war. Nachdem ich mittlerweile aber einmal zum Frühstück oben war, kann ich die experience tatsächlich weiter empfehlen. Erstmal war das Frühstück durch die Bank wirklich sehr gut (hatten sowohl das Vegane, als auch eins mit Wurst & Käse). Dann war außerdem der Service außerordentlich freundlich und zuvorkommend und hat uns den ganzen Aufenthalt sehr angenehm gemacht. Die Aussicht ist natürlich sowieso Wahnsinn, weil es in der ganzen Stadt nicht mal ein annähernd ähnlich hohes Gebäude gibt und außerhalb auch keine Berge. Man kann also wirklich bis zum Horizont schauen. Vielleicht ist der Blick nochmal ein Stück besser, wenn man die Stadt ein bisschen kennt und weiß, was man da eigentlich sieht oder bestimmte Orte suchen kann. Es gibt aber auch ausführliche Beschriftungen und Hinweise dazu, was wo steht. Insgesamt ist es natürlich nicht ganz günstig, aber ich finde es lohnt sich, wenn man sich mal was nettes gönnen will. Insgesamt ist es auf jeden Fall nicht die Tourifalle, die ich erwartet hätte.",
+      "category": "Sightseeing",
+      "tags": [
+         "Aussicht",
+         "Frühstück",
+         "Essen",
+         "Touristisch",
+         "Teuer",
+         "Reservierung nötig",
+         "Erlebnis"
+      ],
+      "last_visited": "2024-02-03",
+      "image": "fernsehturm.jpg"
+   },
+   {
+      "name": "Test Gebäude",
+      "location": "Müllerstraße 1, 10178 Berlin",
+      "note": "Joa, ist ganz gut",
+      "category": "Museum",
+      "tags": [
+         "Aussicht",
+         "Frühstück",
+         "Essen",
+         "Touristisch",
+         "Teuer",
+         "Reservierung nötig",
+         "Erlebnis"
+      ],
+      "last_visited": "2024-02-03",
+      "image": "fernsehturm.jpg"
+   }
+]

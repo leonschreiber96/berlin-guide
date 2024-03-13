@@ -1,0 +1,46 @@
+@import url("colors.css");
+@import url("texts.css");
+@import url("cards.css");
+@import url("buttons.css");
+@import url("bagdes.css");
+@import url("darkModeSwitch.css");
+
+body {
+   margin: 0;
+   font-family: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+   color: var(--textcolor-neutral-2);
+}
+
+header {
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--background-neutral-5);
+   box-shadow: var(--shadow-elevation-8);
+   color: var(--textcolor-neutral-1);
+   padding: 0.5em 7%;
+}
+
+nav {
+   flex-grow: 1;
+}
+
+nav ul {
+   display: flex;
+   list-style: none;
+}
+
+nav ul li {
+   margin: 0 1em;
+}
+
+main {
+   background-color: var(--background-neutral-3);
+   color: var(--textcolor-neutral-5);
+   padding: 20px 10%;
+   min-height: 100vh;
+}
