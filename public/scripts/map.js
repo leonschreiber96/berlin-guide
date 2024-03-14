@@ -10,7 +10,7 @@ async function createMap(pois)
    var locationIcon = L.icon({ iconUrl: 'assets/icons/location.png', iconSize: [18, 18], iconAnchor: [9, 30], popupAnchor: [0, -20], className: 'map-icon' });
 
    for (const poi of pois) {
-      const [lat, lon] = await getAddressDetails(poi.location);
+      const {lat, lon} = await getAddressDetails(poi.location);
       const icon = {
          bar: barIcon,
          restaurant: restaurantIcon,
@@ -101,18 +101,4 @@ async function createMap(pois)
 	}
 	map.on('click', onMapClick); */	
 	
-}
-
-function getAddressDetails(address) {
-   return new Promise((resolve, reject) => {
-      var url = `https://nominatim.openstreetmap.org/search?format=json&q=${address}&limit=1`;
-      fetch(url)
-         .then((response) => response.json())
-         .then((data) => {
-            resolve([data[0].lat, data[0].lon]);
-         })
-         .catch((error) => {
-            reject(error);
-         });
-   });
 }

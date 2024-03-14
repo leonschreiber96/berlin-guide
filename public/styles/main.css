@@ -9,7 +9,7 @@ body {
    margin: 0;
    font-family: "Segoe UI", "Segoe UI Web (West European)", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
    color: var(--textcolor-neutral-2);
-   margin-top: 4em;
+   background-color: var(--background-neutral-3);
 }
 
 header {
@@ -24,36 +24,75 @@ header {
    background-color: var(--background-neutral-5);
    box-shadow: var(--shadow-elevation-64);
    color: var(--textcolor-neutral-1);
-   padding: 0.5em 7%;
+   padding: 0.5em 0;
    box-sizing: border-box;
    backdrop-filter: blur(10px);
    overflow: hidden;
 }
 
-header svg {
+header .bg-deco-svg {
    position: absolute;
    filter: blur(100px) contrast(0.5) opacity(0.5);
    z-index: -1
 }
 
-nav {
-   flex-grow: 1;
-}
-
-nav ul {
-   display: flex;
-   list-style: none;
-}
-
-nav ul li {
+header h1 {
    margin: 0 1em;
 }
 
-main {
-   background-color: var(--background-neutral-3);
+aside {
+   width: 0px;
+   transition: width 0.5s;
+   overflow: hidden;
+   background-color: rgb(from var(--background-neutral-6) r g b / 0.25);
    color: var(--textcolor-neutral-5);
-   padding: 20px 10%;
+   backdrop-filter: blur(35px);
+   height: 100dvh;
+   position:fixed;
+   top:0;
+   z-index: 1001;
+}
+
+aside.open {
+   width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+   aside {
+      max-width: 300px;
+   }
+}
+
+#aside-button {
+   padding: 0.5em;
+   margin: 0 1em;
+   height: 1.5em;
+   width: 1.5em;
+   cursor: pointer;
+   border-radius: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+#aside-button:hover {
+   color: var(--textcolor-neutral-4);
+}
+
+#aside-button:active {
+   background-color: var(--background-neutral-1);
+}
+
+main {
+   color: var(--textcolor-neutral-5);
+   padding: 1em;
    min-height: 100vh;
+
+   transition: filter 0.5s;
+}
+
+header.aside-open, main.aside-open {
+   filter: brightness(0.2) blur(2px);
 }
 
 #map { 

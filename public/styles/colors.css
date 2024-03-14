@@ -1,38 +1,36 @@
 :root {
    /* Brand colors */
-   --primary-color-10: #020400;
-   --primary-color-20: #121c05;
-   --primary-color-30: #182f0a;
-   --primary-color-40: #1d3d0c;
-   --primary-color-50: #234a0e;
-   --primary-color-60: #2c5813;
-   --primary-color-70: #38661f;
-   --primary-color-80: #47742f;
-   --primary-color-90: #578140;
-   --primary-color-100: #688e52;
-   --primary-color-110: #799c64;
-   --primary-color-120: #8baa78;
-   --primary-color-130: #9db78c;
-   --primary-color-140: #afc5a1;
-   --primary-color-150: #c2d3b7;
-   --primary-color-160: #d5e1cd;
+   --primary-color-40: #2a0751;
+   --primary-color-50: #350966;
+   --primary-color-60: #400a7a;
+   --primary-color-70: #4a0c8e;
+   --primary-color-80: #550ea2;
+   --primary-color-90: #5f0fb7;
+   --primary-color-100: #6A11CB;
+   --primary-color-110: #7929d0;
+   --primary-color-120: #8841d5;
+   --primary-color-130: #9758db;
+   --primary-color-140: #a670e0;
+   --primary-color-150: #b588e5;
+   --primary-color-160: #c3a0ea;
 
-   --primary-color-dark-10: #030401;
-   --primary-color-dark-20: #151b0f;
-   --primary-color-dark-30: #1f2d17;
-   --primary-color-dark-40: #273a1b;
-   --primary-color-dark-50: #2e481f;
-   --primary-color-dark-60: #355723;
-   --primary-color-dark-70: #40642b;
-   --primary-color-dark-80: #51713d;
-   --primary-color-dark-90: #617e4f;
-   --primary-color-dark-100: #728b62;
-   --primary-color-dark-110: #829974;
-   --primary-color-dark-120: #93a786;
-   --primary-color-dark-130: #a4b499;
-   --primary-color-dark-140: #b5c3ac;
-   --primary-color-dark-150: #c7d1c0;
-   --primary-color-dark-160: #d8dfd3;
+   /* Dark theme brand colors */
+   --primary-color-dark-10: #c3a0ea;
+   --primary-color-dark-20: #b588e5;
+   --primary-color-dark-30: #a670e0;
+   --primary-color-dark-40: #9758db;
+   --primary-color-dark-50: #8841d5;
+   --primary-color-dark-60: #7929d0;
+   --primary-color-dark-70: #6A11CB;
+   --primary-color-dark-80: #5f0fb7;
+   --primary-color-dark-90: #550ea2;
+   --primary-color-dark-100: #4a0c8e;
+   --primary-color-dark-110: #400a7a;
+   --primary-color-dark-120: #350966;
+   --primary-color-dark-130: #2a0751;
+   --primary-color-dark-140: #1f053d;
+   --primary-color-dark-150: #14032a;
+   --primary-color-dark-160: #090116;
 
    /* Background colors */
    --background-neutral-1: #fff;

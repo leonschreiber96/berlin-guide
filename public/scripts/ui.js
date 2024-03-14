@@ -17,18 +17,21 @@ function createCard(poi) {
                : ""
          }
       </div>
-      <div class="transport-durations" style="position:absolute;right:0;top:0;">
-         <span>
-            <div class="transport-icon car-icon"></div>
-         </span>
-         <span>
-            <div class="transport-icon bike-icon"></div>
-         </span>
-         <span>
-            <div class="transport-icon walk-icon"></div>
-         </span>
-      </div>
    `;
+   // <div class="transport-durations" style="position:absolute;right:1em;top:.5em;">
+   //       <span style="display:flex">
+   //          <div class="transport-icon car-icon"></div>
+   //          --
+   //       </span>
+   //       <span  style="display:flex">
+   //          <div class="transport-icon bike-icon"></div>
+   //          --
+   //       </span>
+   //       <span style="display:flex">
+   //          <div class="transport-icon walk-icon"></div>
+   //          --
+   //       </span>
+   //    </div>
    return card;
 }
 
@@ -68,3 +71,12 @@ function initDarkModeToggle() {
 
    toggleSwitch.addEventListener("change", switchTheme, false);
 }
+
+function toggleSideMenu() {
+   document.querySelector("aside").classList.toggle("open");
+   document.querySelector("main").classList.toggle("aside-open");
+   document.querySelector("header").classList.toggle("aside-open");
+}
+
+const headerHeight = document.querySelector("header").getBoundingClientRect().height;
+document.querySelector("main").style.marginTop = `${headerHeight}px`;

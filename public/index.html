@@ -13,22 +13,23 @@
 
 <body>
    <header>
-      <div>
-         <svg xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;left:-10%" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="40" stroke="rgb(106, 17, 203)" stroke-width="3" fill="rgb(106, 17, 203)" />
-         </svg>
-         <svg xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;right:2%" viewBox="0 0 100 100">
-            <circle cx="50" cy="50" r="40" stroke="rgb(119, 212, 255)" stroke-width="3" fill="rgb(119, 212, 255)" />
+      <svg class="bg-deco-svg" xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;left:-10%"
+         viewBox="0 0 100 100">
+         <circle cx="50" cy="50" r="40" stroke="rgb(106, 17, 203)" stroke-width="3" fill="rgb(106, 17, 203)" />
+      </svg>
+      <svg class="bg-deco-svg" xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;right:2%"
+         viewBox="0 0 100 100">
+         <circle cx="50" cy="50" r="40" stroke="rgb(119, 212, 255)" stroke-width="3" fill="rgb(119, 212, 255)" />
+      </svg>
+      <div id="aside-button" onclick="toggleSideMenu()">
+         <svg xmlns="http://www.w3.org/2000/svg" height="1.3em" viewBox="0 0 16 16">
+            <path fill="red" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+               d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
          </svg>
       </div>
-      <h1>Berlin Guide</h1>
-      <nav>
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-         </ul>
-      </nav>
+      <h1 class="title-1">Berlin Guide</h1>
+   </header>
+   <aside>
       <!-- Dark mode switch -->
       <div class="switch">
          <span>Dark Mode</span>
@@ -37,12 +38,12 @@
             <div class="slider round"></div>
          </label>
       </div>
-   </header>
-   <main>
-      <button id="find-me">Fahrtzeiten berechnen</button><br />
-      <p id="status"></p>
-      <a id="map-link" target="_blank"></a>
+   </aside>
+   <main onclick="document.querySelector('aside').className.includes('open') ? toggleSideMenu() : {}">
       <div id="map"></div>
+      <!-- <div>
+         <button id="find-me">Fahrtzeiten berechnen</button><br />
+      </div> -->
       <div id="card-container"></div>
    </main>
 </body>
