@@ -1,57 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link rel="stylesheet" href="styles/main.css" />
-      <title>Berlin Guide</title>
-   </head>
-   <body>
-      <header>
-         <h1>Berlin Guide</h1>
-         <nav>
-            <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
-            </ul>
-         </nav>
-         <!-- Dark mode switch -->
-         <div class="switch">
-            <span>Dark Mode</span>
-            <label class="theme-switch" for="checkbox">
-               <input type="checkbox" id="checkbox" />
-               <div class="slider round"></div>
-            </label>
-         </div>
-      </header>
-      <main>
-         <div id="card-container"></div>
-      </main>
-   </body>
-   <script src="scripts/ui.js"></script>
-   <script>
-      const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
-      const currentTheme = localStorage.getItem("theme");
 
-      if (currentTheme) {
-         document.documentElement.setAttribute("data-theme", currentTheme);
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="styles/main.css" />
+   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+   <link rel="icon" href="assets/logos/logo_icon.svg">
+   <title>Berlin Guide</title>
+</head>
 
-         if (currentTheme === "dark") {
-            toggleSwitch.checked = true;
-         }
-      }
+<body>
+   <header>
+      <div>
+         <svg xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;left:-10%" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" stroke="rgb(106, 17, 203)" stroke-width="3" fill="rgb(106, 17, 203)" />
+         </svg>
+         <svg xmlns="http://www.w3.org/2000/svg" style="top:-164%;width:66%;right:2%" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="40" stroke="rgb(119, 212, 255)" stroke-width="3" fill="rgb(119, 212, 255)" />
+         </svg>
+      </div>
+      <h1>Berlin Guide</h1>
+      <nav>
+         <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+         </ul>
+      </nav>
+      <!-- Dark mode switch -->
+      <div class="switch">
+         <span>Dark Mode</span>
+         <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider round"></div>
+         </label>
+      </div>
+   </header>
+   <main>
+      <button id="find-me">Fahrtzeiten berechnen</button><br />
+      <p id="status"></p>
+      <a id="map-link" target="_blank"></a>
+      <div id="map"></div>
+      <div id="card-container"></div>
+   </main>
+</body>
+<script src="scripts/ui.js"></script>
+<script src="scripts/map.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+   integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script src="scripts/location.js"></script>
+<script>
+   var DATA;
+   fetch("data" + (window.location.port == 5500 ? ".json" : ""))
+      .then((response) => response.json())
+      .then((data) => {
+         DATA = data;
+         createPoiCards(data);
+         createMap(data);
+      })
+      .then(initDarkModeToggle);
+</script>
 
-      function switchTheme(e) {
-         if (e.target.checked) {
-            document.documentElement.setAttribute("data-theme", "dark");
-            localStorage.setItem("theme", "dark");
-         } else {
-            document.documentElement.setAttribute("data-theme", "light");
-            localStorage.setItem("theme", "light");
-         }
-      }
-
-      toggleSwitch.addEventListener("change", switchTheme, false);
-   </script>
 </html>

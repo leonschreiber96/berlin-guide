@@ -1,5 +1,6 @@
 .card {
    box-sizing: border-box;
+   position: relative;
 
    display: flex;
    flex-direction: column;
@@ -16,7 +17,7 @@
    margin: 1em 0;
 
    background-color: var(--background-neutral-1);
-   box-shadow: var(--shadow-elevation-8);
+   box-shadow: var(--shadow-elevation-16);
 }
 
 .poi-card img {
@@ -25,4 +26,28 @@
    margin: 0 -16px;
 
    object-fit: cover;
+}
+
+.poi-card .transport-durations {
+   display: flex;
+   gap: 8px;
+   align-items: center;
+}
+
+.poi-card .car-icon {
+   mask: url(../assets/icons/car.svg) no-repeat center;
+}
+
+.poi-card .bike-icon {
+   mask: url(../assets/icons/bike.svg) no-repeat center;
+}
+
+.poi-card .walk-icon {
+   mask: url(../assets/icons/walk.svg) no-repeat center;
+}
+
+.poi-card .transport-icon {
+   background-color: var(--textcolor-neutral-1);
+   height: 1.2em;
+   width: 1.2em;
 }

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="49.4728 164.441 371.7283 104.4583" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="184.684" y1="224.046" x2="184.684" y2="269.787" id="gradient-1" gradientTransform="matrix(0.003247, -0.999994, 6.746998, 0.021903, -1425.072128, 424.010089)">
+      <stop offset="0" style="stop-color: rgb(41.569% 6.6667% 79.608%)"/>
+      <stop offset="1" style="stop-color: rgb(119, 212, 255);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="261.82" y1="201.975" x2="261.82" y2="221.975" id="gradient-0" gradientTransform="matrix(0.141082, -2.739241, 2.605159, 0.128496, -196.846598, 926.000522)">
+      <stop offset="0" style="stop-color: rgb(106, 17, 203);"/>
+      <stop offset="1" style="stop-color: rgb(119, 212, 255);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="224.591" y1="137.243" x2="224.591" y2="153.542" id="gradient-2" gradientTransform="matrix(0.416719, -0.909036, 1.014593, 0.465108, 135.322073, 380.910372)">
+      <stop offset="0" style="stop-color: rgb(106, 17, 203);"/>
+      <stop offset="1" style="stop-color: rgb(119, 212, 255);"/>
+    </linearGradient>
+    <style bx:fonts="Cabin">@import url(https://fonts.googleapis.com/css2?family=Cabin%3Aital%2Cwght%400%2C400..700%3B1%2C400..700&amp;display=swap);</style>
+  </defs>
+  <text style="fill: url('#gradient-1'); font-family: Cabin; font-size: 46px; font-weight: 600; letter-spacing: -0.1px; line-height: 18.8129px; paint-order: fill; text-transform: lowercase; word-spacing: -6.8px; white-space: pre;" x="84.744" y="257.466" transform="matrix(1.1336899995803833, 0, 0, 1.302919030189514, -46.60067367553711, -81.49504089355469)">leonschreiber</text>
+  <rect x="209.004" y="164.441" width="17.379" height="16.104" style="fill: rgb(216, 216, 216); paint-order: fill; stroke: rgb(80, 80, 145);" rx="1.16" ry="1.16" transform="matrix(0, 0, 0, 1.2419275045394895, 209.00399780273435, -39.78279113769531)"/>
+  <rect style="fill: rgb(216, 216, 216); stroke: url('#gradient-0'); paint-order: fill; fill-opacity: 0; stroke-width: 2px;" x="365.148" y="206.929" width="56.053" height="54.854" rx="3" ry="3" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -7.105427357601002e-15, 0)"/>
+  <text style="fill: url('#gradient-2'); font-family: 'Cascadia Code'; font-size: 21px; white-space: pre;" x="367.502" y="252.171" transform="matrix(1.2109270095825193, 0, 0, 1.856588006019592, -73.86461639404297, -220.49578857421875)">&lt;/&gt;</text>
+</svg>

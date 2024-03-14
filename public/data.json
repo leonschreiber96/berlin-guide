@@ -1,0 +1,121 @@
+[
+   {
+      "name": "Zum Stammtisch",
+      "location": "Bredowstraße 15, 10551 Berlin",
+      "note": "",
+      "category": "Bar",
+      "tags": [
+         "Bier",
+         "Snacks",
+         "Urig",
+         "Draußen Sitzen"
+      ],
+      "last_visited": "This year",
+      "image": "stammtisch.jpg",
+      "lat": "52.5303048",
+      "lon": "13.3401527",
+      "address_details": {
+         "house_number": "15",
+         "road": "Bredowstraße",
+         "suburb": "Moabit",
+         "borough": "Mitte",
+         "city": "Berlin",
+         "ISO3166-2-lvl4": "DE-BE",
+         "postcode": "10551",
+         "country": "Deutschland",
+         "country_code": "de"
+      }
+   },
+   {
+      "name": "Nord-West Oase",
+      "location": "Wiclefstraße 17, 10551 Berlin",
+      "note": "Meine Moabiter Stammlocation mit richtigem Berliner Kneipenfeeling. Hier gibt es gutes Essen und die Leute sind total freundlich und entspannt. Die Speisekarte wechselt wöchentlich, es gibt aber ein paar Klassiker, die immer da sind (Käsespätzle, Buletten, ...). Ich wurde hier vom Essen noch nie enttäuscht 😊. Es ist keine *billige* Kneipe, aber wenn man die Hausmarke trinkt auch nicht teuer (~3,50 €). Am Wochenende aufpassen, da läuft hier Fußball und ist manchmal echt ziemlich voll. Wenn man es aber selbst schauen möchte, ist es eine top Kneipe dafür! Was ich außerdem toll finde: man kann mit einer größeren Gruppe am Tresen sitzen und sich trotzdem unterhalten, weil seitlich vom Tresen Tische abgehen. Außerdem kann man Darts und Tischkicker spielen 🎯",
+      "category": "Bar",
+      "tags": [
+         "Bier",
+         "Essen",
+         "Fußball",
+         "Tischkicker",
+         "Darts",
+         "Gemütlich",
+         "Kartenzahlung"
+      ],
+      "last_visited": "Regularly",
+      "image": "nwo.jpg",
+      "suburb": "Moabit",
+      "lat": "52.5306131",
+      "lon": "13.3350697",
+      "address_details": {
+         "house_number": "17",
+         "road": "Wiclefstraße",
+         "suburb": "Moabit",
+         "borough": "Mitte",
+         "city": "Berlin",
+         "ISO3166-2-lvl4": "DE-BE",
+         "postcode": "10551",
+         "country": "Deutschland",
+         "country_code": "de"
+      }
+   },
+   {
+      "name": "Fernsehturm",
+      "location": "Panoramastraße 1A, 10178 Berlin",
+      "note": "Lange habe ich es vor mir hergeschoben hier vorbeizuschauen, weil es mir zu tourimäßig war. Nachdem ich mittlerweile aber einmal zum Frühstück oben war, kann ich die experience tatsächlich weiter empfehlen. Erstmal war das Frühstück durch die Bank wirklich sehr gut (hatten sowohl das Vegane, als auch eins mit Wurst & Käse). Dann war außerdem der Service außerordentlich freundlich und zuvorkommend und hat uns den ganzen Aufenthalt sehr angenehm gemacht. Die Aussicht ist natürlich sowieso Wahnsinn, weil es in der ganzen Stadt nicht mal ein annähernd ähnlich hohes Gebäude gibt und außerhalb auch keine Berge. Man kann also wirklich bis zum Horizont schauen. Vielleicht ist der Blick nochmal ein Stück besser, wenn man die Stadt ein bisschen kennt und weiß, was man da eigentlich sieht oder bestimmte Orte suchen kann. Es gibt aber auch ausführliche Beschriftungen und Hinweise dazu, was wo steht. Insgesamt ist es natürlich nicht ganz günstig, aber ich finde es lohnt sich, wenn man sich mal was nettes gönnen will. Insgesamt ist es auf jeden Fall nicht die Tourifalle, die ich erwartet hätte.",
+      "category": "Sightseeing",
+      "tags": [
+         "Aussicht",
+         "Frühstück",
+         "Essen",
+         "Touristisch",
+         "Teuer",
+         "Reservierung nötig",
+         "Erlebnis"
+      ],
+      "last_visited": "2024-02-23",
+      "image": "fernsehturm.jpg",
+      "suburb": "Mitte",
+      "lat": "52.5208279",
+      "lon": "13.409421365810083",
+      "address_details": {
+         "man_made": "Berliner Fernsehturm",
+         "house_number": "1a",
+         "road": "Panoramastraße",
+         "neighbourhood": "Spandauer Vorstadt",
+         "suburb": "Mitte",
+         "borough": "Mitte",
+         "city": "Berlin",
+         "ISO3166-2-lvl4": "DE-BE",
+         "postcode": "10178",
+         "country": "Deutschland",
+         "country_code": "de"
+      }
+   },
+   {
+      "name": "Naturkundemuseum",
+      "location": "Invalidenstraße 43, 10115 Berlin",
+      "note": "Das größe Naturkundemuseum in Deutschland! Es gibt einen Haufen Dinos (🦖), unter anderem das größte Skelett der Welt. Ist nicht zu groß als dass man es an einem Tag schaffen könnte, aber man sollte etwas Zeit mitbringen wenn man wirklich alles sehen will. Sonntags ist der Eintritt kostenlos (wie in den meisten Berliner Museen), aber man sollte sich auf eine lange Wartezeit (~15-30 min) am Eingang gefasst machen.",
+      "category": "Museum",
+      "tags": [
+         "Interessant",
+         "Erlebnis",
+         "Günstig"
+      ],
+      "last_visited": "2024-02-04",
+      "image": "naturkundemuseum.webp",
+      "suburb": "Mitte",
+      "lat": "52.5304903",
+      "lon": "13.3791152",
+      "address_details": {
+         "tourism": "Museum für Naturkunde",
+         "house_number": "43",
+         "road": "Invalidenstraße",
+         "suburb": "Mitte",
+         "borough": "Mitte",
+         "city": "Berlin",
+         "ISO3166-2-lvl4": "DE-BE",
+         "postcode": "10115",
+         "country": "Deutschland",
+         "country_code": "de"
+      }
+   }
+]

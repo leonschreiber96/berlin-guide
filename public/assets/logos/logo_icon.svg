@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="365.148 206.929 56.053 54.854" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="261.82" y1="201.975" x2="261.82" y2="221.975" id="gradient-0" gradientTransform="matrix(0.141082, -2.739241, 2.605159, 0.128496, -196.846598, 926.000522)">
+      <stop offset="0" style="stop-color: rgb(106, 17, 203);"/>
+      <stop offset="1" style="stop-color: rgb(119, 212, 255);"/>
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" x1="224.591" y1="137.243" x2="224.591" y2="153.542" id="gradient-2" gradientTransform="matrix(0.416719, -0.909036, 1.014593, 0.465108, 135.322073, 380.910372)">
+      <stop offset="0" style="stop-color: rgb(106, 17, 203);"/>
+      <stop offset="1" style="stop-color: rgb(119, 212, 255);"/>
+    </linearGradient>
+  </defs>
+  <rect style="fill: rgb(216, 216, 216); stroke: url('#gradient-0'); paint-order: fill; fill-opacity: 0; stroke-width: 2px;" x="365.148" y="206.929" width="56.053" height="54.854" rx="3" ry="3" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -7.105427357601002e-15, 0)"/>
+  <text style="fill: url('#gradient-2'); font-family: 'Cascadia Code'; font-size: 21px; white-space: pre;" x="367.502" y="252.171" transform="matrix(1.2109270095825193, 0, 0, 1.856588006019592, -73.86461639404297, -220.49578857421875)">&lt;/&gt;</text>
+</svg>
